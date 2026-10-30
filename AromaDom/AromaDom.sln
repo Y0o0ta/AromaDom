@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AromaDom", "AromaDom\AromaDom.csproj", "{97D17311-5518-4DE5-A3EE-3D89F1A61738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D17311-5518-4DE5-A3EE-3D89F1A61738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D17311-5518-4DE5-A3EE-3D89F1A61738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D17311-5518-4DE5-A3EE-3D89F1A61738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D17311-5518-4DE5-A3EE-3D89F1A61738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {223760CF-94FB-44CC-8303-50C1C8791C55}
+	EndGlobalSection
+EndGlobal

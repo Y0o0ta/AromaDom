@@ -1,0 +1,25 @@
+﻿<Window x:Class="AromaDom.ProductsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AromaDom"
+        mc:Ignorable="d"
+        Title="Продукция" Height="450" Width="800">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="HeaderTextBlock" Grid.Row="0" FontSize="16" Margin="0,0,0,10" Text="Продукция, в которой используется материал:"/>
+        <DataGrid x:Name="ProductsDataGrid" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Наименование продукции" Binding="{Binding ProductName}" Width="*"/>
+                <DataGridTextColumn Header="Необходимое количество материала" Binding="{Binding MaterialQty}" Width="200"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="2" Content="Назад" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,10,0,0" Click="BackButton_Click"/>
+    </Grid>
+</Window>
